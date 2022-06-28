@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1f1e;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: orange;
+  padding: 16px 32px;
+  font-size: 3rem;
+}
+
+main {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+main > label {
+  font-size: 1.5rem;
+}
+
+main > input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 32px;
+  border-radius: 5px;
+  border: none;
+}
+main > button {
+  padding: 12px;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#div-palavra-chave,
+#div-letras-invalidas {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 100px;
+}
+#div-palavra-chave > span {
+  font-size: 2.5rem;
+}
+
+#div-letras-invalidas > span {
+  text-align: center;
+}
+
+#painel-erro {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  border: dotted orange 2px;
+  padding: 12px;
+}

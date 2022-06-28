@@ -10,23 +10,29 @@
 </head>
 
 <body>
-    <h1 style="text-align: center;">Jogo da forca</h1>
+    <h1 style="text-align: center;">Jogo da forca </h1>
 
+    <!-- Trata letra escolhida -->
+    <main>
     <label for="input-letra">Escolha uma letra</label>
-    <input type="text" id="input-letra" >
+    <input type="text" id="input-letra" maxlength="1">
     <button onClick="letraEscolhida()">confirmar</button>
     </input>
-
-<div>
+</main>
+ 
+<div id="div-palavra-chave">
     <h2>Palavra Chave</h2>
     <span id="palavra-chave"></span>
 </div>
 
-<div>
-    <h3>Letras invalidas</h3>
+<div id="div-letras-invalidas">
+    <h2>Letras invalidas</h2>
     <div id="letras-invalidas">    
     </div>
 </div>
+
+<h2 id="painel-erro"></h2>
+
     <script src="./script.js"></script>
 </body>
 
